@@ -7,6 +7,7 @@ public class getDay {
       String date = input.nextLine();
       LocalDate ld = LocalDate.parse(date);
       System.out.printf("The day of '%s' is: %s", date, ld.getDayOfWeek());
+      input.close();
       /* INPUT:
        * 2021-12-18
        * 
